@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    color: darksalmon;
+    background-size: cover ;
+}
+.attendance{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+.attendance h1 {
+text-align: center;
+}
+.attendance h3{
+    text-align: center;
+}
+.attendance button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 100px;
+    border-radius: 100px;
+
+}
+.attendance a:hover{
+    background: aquamarine;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 100px;
+    border-radius: 100px;
+}
